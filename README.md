@@ -14,8 +14,9 @@ A Node.js/TypeScript backend for identity reconciliation, built with Express and
 ```
 
 ### Live URL
-(User: Replace this with your deployed Vercel/Render URL after deployment)
-Example: `https://bitespeed-backend.vercel.app/identify`
+**Base URL**: `https://bitespeed-task-elg6.vercel.app`
+
+Example Identify Request: `https://bitespeed-task-elg6.vercel.app/identify`
 
 ## Setup & Deployment
 
