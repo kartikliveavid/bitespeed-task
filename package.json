@@ -8,6 +8,7 @@
     "dev": "node --loader ts-node/esm --watch src/index.ts",
     "start": "node --loader ts-node/esm src/index.ts",
     "build": "prisma generate && tsc",
+    "postinstall": "prisma generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
