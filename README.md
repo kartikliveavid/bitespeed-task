@@ -13,6 +13,11 @@ A Node.js/TypeScript backend for identity reconciliation, built with Express and
 }
 ```
 
+## 🚀 Live Service
+The backend is live and accessible at:
+- **Service URL**: [https://bitespeed-task-elg6.vercel.app](https://bitespeed-task-elg6.vercel.app)
+- **Identify Endpoint**: `https://bitespeed-task-elg6.vercel.app/identify`
+
 ## 🖼️ Visual Documentation
 
 ### 🗄️ Database (Prisma & Supabase)
