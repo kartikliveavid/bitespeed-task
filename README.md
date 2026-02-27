@@ -13,10 +13,17 @@ A Node.js/TypeScript backend for identity reconciliation, built with Express and
 }
 ```
 
-## 🚀 Live Service
-The backend is live and accessible at:
-- **Service URL**: [https://bitespeed-task-elg6.vercel.app](https://bitespeed-task-elg6.vercel.app)
-- **Identify Endpoint**: `https://bitespeed-task-elg6.vercel.app/identify`
+## 🖼️ Visual Documentation
+
+### 🗄️ Database (Prisma & Supabase)
+Successfully integrated Prisma with Supabase. The screenshot below shows the `Contact` table with reconciled identities (primary and secondary links).
+
+![Prisma Database](assets/database.png)
+
+### 📮 Postman API Testing
+Tested the `/identify` endpoint with various payloads to verify the identity reconciliation logic.
+
+![Postman API Test](assets/postman.png)
 
 > [!TIP]
 > You can test the service directly using the Postman collection or by sending a POST request to the Identify endpoint above.
